@@ -1,7 +1,7 @@
 FROM fedora:25
 MAINTAINER Yann Hodique <yann.hodique@gmail.com>
 ENV CIFS_UTILS_DOWNLOAD_URL https://ftp.samba.org/pub/linux-cifs/cifs-utils/
-ENV CIFS_UTILS_VERSION cifs-utils-6.6.tar.bz2
+ENV CIFS_UTILS_VERSION cifs-utils-6.6
 ENV UPDATED_AT 25-01-2017
 
 #install required libraries & clean up to keep thin layer
